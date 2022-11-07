@@ -1,0 +1,143 @@
+html{
+    background-color: white;
+}
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+.đềmục {
+    margin-top:20px;
+    margin-left:80px;
+    font-weight: 300px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.communication{
+    margin-top:20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size:25px;
+    font-weight: 300px;
+    padding-top:5px;
+    padding-bottom:20px;
+    background-color: white;
+    border-left: 2px solid #66e0ff;
+    border-right: 2px solid #66e0ff;
+    padding-left:30px;
+    line-height: 40px;
+}
+
+
+#button-prev{
+    border:2px solid red;
+    border-radius: 10px;
+    margin: 15px 1100px 30px 130px;
+    text-align: center;
+    margin-top: 30px;
+    box-shadow: -8px 8px 15px;
+    background-color: white;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+
+}
+
+a{
+    text-decoration:none;
+}
+#seclection-1{
+    text-align: center;
+    border: 2px solid red;
+    float: left;
+    border-radius:10px;
+    box-shadow: -10px 10px 20px ;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    
+}
+#seclection-2{
+    text-align:center;    
+    border: 2px solid red;
+    float: right;
+    border-radius: 10px;
+    box-shadow: -10px 10px 20px;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight:500;
+    font-size: 20px;
+    text-decoration: none;
+    color: aliceblue;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 10%;
+    color: #0091b6;
+}
+.select_io{
+    display: flex;
+    justify-content : space-between;
+    margin-top: 20px ;
+    background: #4d4d4d;
+    padding-left: 120px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.logo {
+    margin-top: 10px;
+    cursor: pointer;
+    color:#23cffa;
+}
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer ;
+    transition: all 0.3s ease 0s;
+    margin-right: 130px;
+    margin-top: -40px;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+color: #0088a9;
+}
+.cta li button {
+    transition: all 0.3s ease 0s;
+}
+.cta li button:hover {
+color: #0088a9;
+}
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+.logo1{
+    cursor: pointer;
+    width: 100px;
+}
+#slidebar {
+    color: black ;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    padding: 20px 0px 20px 80px;
+}
+.button_icon{
+    float: right;
+}
+#slidebar{
+    background: rgba(0,136,169,0.8);
+}
+
+
